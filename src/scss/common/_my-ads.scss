@@ -5,6 +5,14 @@
   @media screen and (max-width: $tablet-lower) {
     width: 320px;
   }
+
+  // @media screen and (min-width: $tablet-upper) {
+  //   width: 764px;
+  // }
+
+  // @media screen and (min-width: $desctop-upper) {
+  //   width: 1280px;
+  // }
 }
 
 .my-ads {
@@ -34,6 +42,7 @@
 .my-ads-container {
   @media screen and (min-width: $tablet-upper) {
     display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -151,8 +160,3 @@
 .my-ads-btn-open-card {
   top: 241px;
 }
-
-// .my-ads {
-//   padding-top: 20px;
-//   padding-bottom: 50px;
-// }

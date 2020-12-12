@@ -3,7 +3,7 @@
   {{#each this}}
   <article class="my-ads-card">
     <div class="my-ads-img-container ">
-      <img class="my-ads-img" src="./images/img-1.jpg" alt="Зображення об'яви {{title}}">
+      <img class="my-ads-img" src={{imageUrls}} alt={{title}}>
       <div class="my-ads-container-btn">
         <button class="my-ads-btn" type="submit" aria-label="Додає в обране">
           <svg class="my-ads-icon-btn " width="14" height="14">
@@ -23,8 +23,8 @@
       </div>
     </div>
     <div class="my-ads-card-content">
-      <h2 class="my-ads-title">Куртка жіноча {{title}}</h2>
-      <p class="my-ads-price">2 300 грн {{price}}</p>
+      <h2 class="my-ads-title">{{description}}</h2>
+      <p class="my-ads-price">{{price}} грн</p>
     </div>
   </article>
   {{/each}}

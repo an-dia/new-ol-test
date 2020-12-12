@@ -10,8 +10,9 @@
     <title>OLX</title>
   </head>
   <body class="body">
+    <!-- Exit -->
     <button data-popup-open >Вийти з акаунта</button>
-    <div class="backdrop-logout is-hidden " data-popup>
+    <div class="backdrop-popup is-hidden " data-popup>
       <div class="popup-logout">
         <button data-popup-close class="btn-popup-close" aria-label="Закриває модальне вікно">
           <svg class="icon-popup-close">
@@ -26,9 +27,18 @@
       </div>
     </div>
       <button class="my-ads-rend" type="button" >Мої оголошення</button>
-    <section class=" my-ads container">
-            
-
+    <section class=" my-ads container is-login">
     </section> 
+    <div class="container is-login">
+      <div class="cards "></div>
+    </div>
   </body>
 </html>
+
+<!-- для включение меню авторизованого пользывателя включить клас " is-login" на:
+<button class="sidenav__registry is-login">
+<div class="sidenav__menu-acount .is-login">
+<div class="sidenav__menu-acount .is-login"></div>
+<button class="header-navigation__registry is-login " data-modal-open-registration></button>
+<button class="header-navigation__menu-acount-logout is-login"></button>
+<div class="header-navigation__menu-acount is-login"></div> -->
