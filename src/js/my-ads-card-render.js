@@ -8,5 +8,5 @@ refs.myAdsCardRender.addEventListener('click', onRenderMyAdsCard)
 
 function onRenderMyAdsCard(test) {
   refs.myAds.insertAdjacentHTML('beforeend', myAdsCardRenderTpl(test))
-  
+  refs.myAdsCardRender.disabled = true;
 }
