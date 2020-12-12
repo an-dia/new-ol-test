@@ -6,6 +6,6 @@ export default function getRefs (){
     backdropPopupLogout: document.querySelector('[data-popup]'),
     myAds: document.querySelector('.my-ads'),
     myAdsCardRender: document.querySelector('.my-ads-rend'), 
-   
+    exitAccount: document.querySelector('[data-exit]'), 
   }
 }
