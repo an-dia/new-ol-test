@@ -1,3 +1,22 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  // padding-left: 15px;
+  // padding-right: 15px;
+
+  @media screen and (max-width: $tablet-lower) {
+    width: 320px;
+  }
+
+  // @media screen and (min-width: $tablet-upper) {
+  //   width: 768px;
+  // }
+
+  // @media screen and (min-width: $desctop-upper) {
+  //   width: 1280px;
+  // }
+}
+
 .my-ads {
   padding-top: 20px;
   padding-bottom: 50px;
@@ -23,14 +42,13 @@
 }
 
 .my-ads-container {
-  // max-width: 100%;
   @media screen and (min-width: $tablet-upper) {
     display: flex;
   }
 }
 
 .my-ads-card {
-  // max-width: 290px;
+  max-width: 290px;
   background: $white-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -134,3 +152,8 @@
 .my-ads-btn-open-card {
   top: 241px;
 }
+
+// .my-ads {
+//   padding-top: 20px;
+//   padding-bottom: 50px;
+// }

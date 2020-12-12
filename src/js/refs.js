@@ -4,6 +4,8 @@ export default function getRefs (){
     closePopupBtnLogout: document.querySelector('[data-popup-close]'),
     cancelPopupBtnLogout: document.querySelector('[data-popup-cancel]'),
     backdropPopupLogout: document.querySelector('[data-popup]'),
+    myAds: document.querySelector('.my-ads'),
+    myAdsCardRender: document.querySelector('.my-ads-rend'), 
    
   }
 }
